@@ -1,0 +1,11 @@
+#kalenteritausta {
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+#tausta {
+    height: 100%;
+    width: 100%;
+}
