@@ -1,29 +1,23 @@
-var joulukalenteri = document.getElementById("tausta");
+var joulukalenteri = documet.getElementById("tausta");
 var kuluvaPaiva = new Date();
 
-//saa parametriksi joulukalenteri-kuvan ja kuluvan päivän
-function Luukku (joulukalenteri, paiva) {
+fuction avaaLuukku (luukkuNro) {
     
-    
-    //luodaan luukut ja tarkistetaan onko luukku avattavissa
-    this.content = function () {
+    if (kuluvaPaiva.getMonth()+1 < 12 || kuluvaPaiva.getDate() < luukkuNro) {
+        
+        //disabloitu
+        
+    } else {
+        //jos kuluva päivä, korostetaan luukku
+        if (kuluvaPaiva.getMonth == 12 && kuluvaPaiva.getDate == luukkuNro) {
+            
+        }
+            
+        alert("Tähän haetaan viesti erillisestä tiedostosta");
         
         
     }
     
+    
 }
 
-
-//sivun alustuksessa kutsutaan funktiota, joka edelleen luo luukut
-(function() {
-	var luukut = [];
-
-	for(var i = 0; i < 24; i++) {
-
-		luukut[i] = new Luukku(joulukalenteri, i + 1);
-		luukut[i].content();
-
-	}
-
-	return luukut;
-})();
