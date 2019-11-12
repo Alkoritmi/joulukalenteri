@@ -17,10 +17,10 @@ body {
 #luukku {
     height: 100px;
     width: 100px;
-    padding-right: 5px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
     margin: auto;
+    text-align: center;
 }
 
 .flex-container, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
@@ -29,5 +29,4 @@ body {
 }
 .flex-item {
     flex: 1;
-    text-align: center
 }
