@@ -1,4 +1,3 @@
-var joulukalenteri = documet.getElementById("tausta");
 var kuluvaPaiva = new Date();
 
 fuction avaaLuukku (luukkuNro) {
@@ -12,9 +11,10 @@ fuction avaaLuukku (luukkuNro) {
         if (kuluvaPaiva.getMonth == 12 && kuluvaPaiva.getDate == luukkuNro) {
             
         }
-            
-        alert("Tähän haetaan viesti erillisestä tiedostosta");
+          
         
+        //näytetään luukkunumeron mukainen viesti
+        alert(luukkuNro + ". päivä: " + messages[luukkuNro - 1]);
         
     }
     
