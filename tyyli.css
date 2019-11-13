@@ -1,6 +1,7 @@
 body {
-    font-family: Libre Baskerville, serif; 
+    font-family: 'Libre Baskerville', serif;
 }
+
 #kalenteritausta {
     background-image: url("images/winter-3113466_1920.gif");
     height: 700px;
@@ -23,10 +24,20 @@ body {
     text-align: center;
 }
 
+.luukku:hover {
+    background-color: lightblue;
+}
+
+h1 {
+    vertical-align: middle;
+}
+
 .flex-container, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
     display: flex;
     flex-direction: row;
 }
+
 .flex-item {
     flex: 1;
+    margin-top: 5px;
 }

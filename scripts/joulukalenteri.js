@@ -1,6 +1,7 @@
-var kuluvaPaiva = new Date();
+const kuluvaPaiva = new Date();
+const luukkuNro = document.getElementById("luukku" + Paiva);
 
-fuction avaaLuukku (luukkuNro) {
+function avaaLuukku (luukkuNro) {
     
     if (kuluvaPaiva.getMonth()+1 < 12 || kuluvaPaiva.getDate() < luukkuNro) {
         
@@ -20,4 +21,6 @@ fuction avaaLuukku (luukkuNro) {
     
     
 }
+
+function poistakaytosta (luukkuNro)
 
