@@ -24,6 +24,15 @@ body {
     text-align: center;
 }
 
+.disabloitu {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    opacity: 0.8;
+    margin: auto;
+    text-align: center;
+}
+
 .luukku:hover {
     background-color: lightblue;
 }
