@@ -1,5 +1,5 @@
 var messages = [
-    "Viesti 1",
+    "Pidä huolta terveydestäsi. Kuuntele kehosi antamia pieniä signaaleja ja tarvittaessa hiljennä tahtia.",
     "Viesti 2",
     "Viesti 3",
     "Viesti 4",
