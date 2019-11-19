@@ -1,17 +1,18 @@
 const kuluvaPaiva = new Date();
-const luukkuNro = document.getElementById("luukku" + Paiva);
 
 function avaaLuukku (luukkuNro) {
     
-    if (kuluvaPaiva.getMonth()+1 < 12 || kuluvaPaiva.getDate() < luukkuNro) {
+    //tarkistetaan onko luukku avattavissa
+    //HUOM! Tämä korjattava vielä lopulliseen versioon --> kk=12
+    if (kuluvaPaiva.getMonth()+1 < 11 || kuluvaPaiva.getDate() < luukkuNro) {
         
-        //disabloitu
-        //document.getElementById("luukku"+luukkuNro)
+        //disabloidaan luukku
+        poistakaytosta(luukkuNro);
         
     } else {
         //jos kuluva päivä, korostetaan luukku
         if (kuluvaPaiva.getMonth == 12 && kuluvaPaiva.getDate == luukkuNro) {
-            
+            //korostetaan luukku
         }
           
         
@@ -23,5 +24,7 @@ function avaaLuukku (luukkuNro) {
     
 }
 
-function poistakaytosta (luukkuNro)
+function poistakaytosta (luukkuNro) {
+    
+}
 

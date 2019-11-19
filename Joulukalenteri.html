@@ -10,6 +10,7 @@
     <meta name="author" content="Alkoritmi">
     <!-- lisää meta-elementtejä -->
     <script src="scripts/joulukalenteri.js"></script>
+    <script src="scripts/viestit.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="tyyli.css" rel="stylesheet" type="text/css">
@@ -18,10 +19,10 @@
 <body>
 <div id="kalenteritausta">
 <div class="flex-container">
-<div class="flex-item"><div class="luukku" id="luukku1" onclick="myFunction()"><h1>1</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku2" onclick="myFunction()"><h1>2</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku3" onclick="myFunction()"><h1>3</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku4" onclick="myFunction()"><h1>4</h1></div></div>
+<div class="flex-item"><div class="luukku" id="luukku1" onclick="avaaLuukku(1)"><h1>1</h1></div></div>
+<div class="flex-item"><div class="luukku" id="luukku2" onclick="avaaLuukku(2)"><h1>2</h1></div></div>
+<div class="flex-item"><div class="luukku" id="luukku3" onclick="avaaLuukku(3)"><h1>3</h1></div></div>
+<div class="flex-item"><div class="luukku" id="luukku4" onclick="avaaLuukku(4)"><h1>4</h1></div></div>
 </div>
 <div class="flex-container2">
 <div class="flex-item"><div class="luukku" id="luukku5"><h1>5</h1></div></div>
