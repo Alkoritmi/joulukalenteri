@@ -1,6 +1,6 @@
 const kuluvaPaiva = new Date();
 
-function avaaLuukku (luukkuNro) {
+function avaaLuukku(luukkuNro) {
     
     //tarkistetaan onko luukku avattavissa
     //HUOM! Tämä korjattava vielä lopulliseen versioon --> kk=11
@@ -28,7 +28,17 @@ function avaaLuukku (luukkuNro) {
     
 }
 
-function poistakaytosta (luukkuNro) {
-    
-}
+//function poistakaytosta() {
+    //for (n = 0; n <= 24; n++) {
+        //document.getElementById("luukku" + n).classList.toggle("disabloitu");
+
+        //var x = document.getElementById("luukku5");
+        //if (x.classList.contains("luukku")) {
+            //x.classList.remove("luukku");
+            //x.classList.add("disabloitu")
+        //} else {
+            //alert("Could not find it.");
+        //}
+    //}
+//}
 

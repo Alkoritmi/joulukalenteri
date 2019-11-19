@@ -19,42 +19,61 @@
 <body>
 <div id="kalenteritausta">
 <div class="flex-container">
-<div class="flex-item"><div class="luukku" id="luukku1" onclick="avaaLuukku(1)"><h1>1</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku2" onclick="avaaLuukku(2)"><h1>2</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku3" onclick="avaaLuukku(3)"><h1>3</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku4" onclick="avaaLuukku(4)"><h1>4</h1></div></div>
+<div class="flex-item"><div class="luukku" id="1" onclick="avaaLuukku(1)"><h1>1</h1></div></div>
+<div class="flex-item"><div class="luukku" id="2" onclick="avaaLuukku(2)"><h1>2</h1></div></div>
+<div class="flex-item"><div class="luukku" id="3" onclick="avaaLuukku(3)"><h1>3</h1></div></div>
+<div class="flex-item"><div class="luukku" id="4" onclick="avaaLuukku(4)"><h1>4</h1></div></div>
 </div>
 <div class="flex-container2">
-<div class="flex-item"><div class="luukku" id="luukku5"><h1>5</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku6"><h1>6</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku7"><h1>7</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku8"><h1>8</h1></div></div>
+<div class="flex-item"><div class="luukku" id="5"><h1>5</h1></div></div>
+<div class="flex-item"><div class="luukku" id="6"><h1>6</h1></div></div>
+<div class="flex-item"><div class="luukku" id="7"><h1>7</h1></div></div>
+<div class="flex-item"><div class="luukku" id="8"><h1>8</h1></div></div>
 </div>
 <div class="flex-container3">
-<div class="flex-item"><div class="luukku" id="luukku9"><h1>9</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku10"><h1>10</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku11"><h1>11</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku12"><h1>12</h1></div></div>
+<div class="flex-item"><div class="luukku" id="9"><h1>9</h1></div></div>
+<div class="flex-item"><div class="luukku" id="10"><h1>10</h1></div></div>
+<div class="flex-item"><div class="luukku" id="11"><h1>11</h1></div></div>
+<div class="flex-item"><div class="luukku" id="12"><h1>12</h1></div></div>
 </div>
 <div class="flex-container4">
-<div class="flex-item"><div class="luukku" id="luukku13"><h1>13</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku14"><h1>14</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku15"><h1>15</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku16"><h1>16</h1></div></div>
+<div class="flex-item"><div class="luukku" id="13"><h1>13</h1></div></div>
+<div class="flex-item"><div class="luukku" id="14"><h1>14</h1></div></div>
+<div class="flex-item"><div class="luukku" id="15"><h1>15</h1></div></div>
+<div class="flex-item"><div class="luukku" id="16"><h1>16</h1></div></div>
 </div>
 <div class="flex-container5">
-<div class="flex-item"><div class="luukku" id="luukku17"><h1>17</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku18"><h1>18</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku19" onclick="avaaLuukku(19)"><h1>19</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku20"><h1>20</h1></div></div>
+<div class="flex-item"><div class="luukku" id="17"><h1>17</h1></div></div>
+<div class="flex-item"><div class="luukku" id="18"><h1>18</h1></div></div>
+<div class="flex-item"><div class="luukku" id="19"><h1>19</h1></div></div>
+<div class="flex-item"><div class="luukku" id="20"><h1>20</h1></div></div>
 </div>
 <div class="flex-container6">
-<div class="flex-item"><div class="luukku" id="luukku21"><h1>21</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku22"><h1>22</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku23"><h1>23</h1></div></div>
-<div class="flex-item"><div class="luukku" id="luukku24"><h1>24</h1></div></div>
+<div class="flex-item"><div class="luukku" id="21"><h1>21</h1></div></div>
+<div class="flex-item"><div class="luukku" id="22"><h1>22</h1></div></div>
+<div class="flex-item"><div class="luukku" id="23"><h1>23</h1></div></div>
+<div class="flex-item"><div class="luukku" id="24"><h1>24</h1></div></div>
 </div>
 </div>
+
+<script>
+    function poistakaytosta() {
+        
+        for (n = 1; n <= 24; n++) {
+            console.log(n);
+            //document.getElementById("luukku5").classList.toggle("disabloitu", true);
+            var x = document.getElementById(n);
+            if (x.classList.contains("luukku")) {
+                x.classList.remove("luukku");
+                x.classList.add("disabloitu")
+            } else {
+                console.log("Notwork");
+            }
+        }
+    }
+
+window.onload=poistakaytosta();
+</script>
 </body>
 
 </html>
