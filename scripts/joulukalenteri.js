@@ -5,6 +5,7 @@ fuction avaaLuukku (luukkuNro) {
     if (kuluvaPaiva.getMonth()+1 < 12 || kuluvaPaiva.getDate() < luukkuNro) {
         
         //disabloitu
+        //document.getElementById("luukku"+luukkuNro)
         
     } else {
         //jos kuluva päivä, korostetaan luukku
