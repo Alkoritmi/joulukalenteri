@@ -4,7 +4,7 @@ body {
 }
 
 #kalenteritausta {
-    
+
     height: 700px;
     width: 452px;
     margin: auto;
@@ -51,7 +51,12 @@ h1 {
     vertical-align: middle;
 }
 
-.flex-container, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
+.flex-container,
+.flex-container2,
+.flex-container3,
+.flex-container4,
+.flex-container5,
+.flex-container6 {
     display: flex;
     flex-direction: row;
 }

@@ -13,7 +13,7 @@ var messages = [
     "Viesti 12",
     "Viesti 13",
     "Viesti 14",
-    "Viesti 15",    
+    "Viesti 15",
     "Viesti 16",
     "Viesti 17",
     "Viesti 18",
