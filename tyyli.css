@@ -28,6 +28,9 @@ body {
     height: 100px;
     width: 100px;
     background-color: pink;
+    opacity: 0.8;
+    margin: auto;
+    text-align: center;
 }
 
 .disabloitu {

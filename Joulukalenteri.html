@@ -57,6 +57,17 @@
 </div>
 
 <script>
+    
+    function korostaKuluvaPaiva() {
+        var kuluvaPaiva = new Date();
+        if (kuluvaPaiva.getMonth() == 10) {
+            document.getElementById(kuluvaPaiva.getDate()).classList.remove("luukku");
+            document.getElementById(kuluvaPaiva.getDate()).classList.add("luukku_korostus");
+        }
+        
+        
+    }
+    
     function poistakaytosta() {
         const kuluvaPaiva = new Date();
 
@@ -73,7 +84,10 @@
             }
         }
     }
-    window.onload = poistakaytosta();
+
+window.onload=korostaKuluvaPaiva(), poistakaytosta();
+
+
 </script>
 </body>
 
