@@ -24,6 +24,15 @@ body {
     text-align: center;
 }
 
+.luukku_korostus {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    opacity: 0.8;
+    margin: auto;
+    text-align: center;
+}
+
 .luukku:hover {
     background-color: lightblue;
 }
