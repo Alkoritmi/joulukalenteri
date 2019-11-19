@@ -12,5 +12,3 @@ function avaaLuukku(luukkuNro) {
     }
           
 }
-
-
