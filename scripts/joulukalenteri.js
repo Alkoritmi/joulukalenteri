@@ -18,27 +18,8 @@ function avaaLuukku(luukkuNro) {
             document.getElementById(luukkuNro).classList.add("luukku_korostus");
             
         }
-          
-        
         //näytetään luukkunumeron mukainen viesti
         alert(luukkuNro + ". päivä: " + messages[luukkuNro - 1]);
           
     }
-    
-    
 }
-
-//function poistakaytosta() {
-    //for (n = 0; n <= 24; n++) {
-        //document.getElementById("luukku" + n).classList.toggle("disabloitu");
-
-        //var x = document.getElementById("luukku5");
-        //if (x.classList.contains("luukku")) {
-            //x.classList.remove("luukku");
-            //x.classList.add("disabloitu")
-        //} else {
-            //alert("Could not find it.");
-        //}
-    //}
-//}
-
