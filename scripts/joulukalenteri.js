@@ -6,5 +6,3 @@ function avaaLuukku(luukkuNro) {
     alert(luukkuNro + ". päivä: " + messages[luukkuNro - 1]);
           
 }
-
-
